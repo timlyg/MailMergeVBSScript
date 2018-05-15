@@ -181,6 +181,8 @@ Sub SubOutlookMailMergeAttachment
         Next
         ' Set Sender's email address
         Item.SentOnBehalfOfName = "SLamoreaux@solomonpage.com"
+	' Set BCC
+	'Item.BCC = "tlaw@solomonpage.com"
         Item.Save
     Next 
 
